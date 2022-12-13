@@ -47,5 +47,3 @@ const changer = setInterval(select,1000);
 //Arrêter le setInterval si on clique sur le bouton "arrêter"
 let stop = document.querySelector('button');
 stop.addEventListener('click',() => {clearInterval(changer);})
-
-
